@@ -21,6 +21,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get --quiet --yes update \
         python \
         gcc-avr \
         gdb-avr \
+        git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists
 
